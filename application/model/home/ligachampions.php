@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <title>Taribo - Inggris</title>
+    <title>Taribo - Champions</title>
     
 
 <!-- Theme CSS -->
@@ -31,7 +31,7 @@
                         <div class="breadcrumbs">
                             <ul>
                                 <li>Home</a></li>
-                                <li>Liga Inggris</li>
+                                <li>Liga Champions</li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                     $cari = "SELECT id_artikel, judul_artikel, foto_artikel, 
                                             CONCAT(LEFT(isi_artikel,150), 
                                             IF(length(isi_artikel) > 150, '...', '')) as isi_artikel,
-                                            waktu_posting, tanggal_posting FROM artikel where id_kategori='2' ORDER BY tanggal_posting DESC LIMIT $awaldata, $page";
+                                            waktu_posting, tanggal_posting FROM artikel where id_kategori='3' ORDER BY tanggal_posting DESC LIMIT $awaldata, $page";
                                     $hasil_cari = mysqli_query($dbc, $cari);
 
                                     if (mysqli_num_rows($hasil_cari) > 0) {

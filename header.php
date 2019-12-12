@@ -8,17 +8,17 @@
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Theme CSS -->
-	<link href="../../../../assets/css/main.css" rel="stylesheet" media="screen">
+	<link href="assets/css/main.css" rel="stylesheet" media="screen">
 	<link href="maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="../../../../assets/img/icons/favicon.ico">
-	<link rel="apple-touch-icon" href="../../../../assets/img/icons/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../../../../assets/img/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../../../../assets/img/icons/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="assets/img/icons/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/icons/apple-touch-icon-114x114.png">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="../../../../assets/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
 </head>
 
     <body>
@@ -35,7 +35,7 @@
                             <div class="col col-xl-2">
                                <div class="logo">
                                    <a href="index-2.html" title="Return Home">
-                                        <img src="../../../assets/img/taribo.png" alt="Logo" class="logo_img">
+                                        <img src="assets/img/taribo.png" alt="Logo" class="logo_img">
                                     </a>
                                </div>
                             </div>
@@ -49,17 +49,17 @@
                                         <!-- Menu-->
                                         <ul class="sf-menu" id="menu">
                                             <li class="current">
-                                                <a href="../../../index.php">Home</a>
+                                                <a href="#">Home</a>
                                             </li>
 
                                             <li class="current">
-                                                <a href="ligaindonesia.php">Liga Indonesia</a>
+                                                <a href="application/model/home/ligaindonesia.php">Liga Indonesia</a>
                                             </li>
                                             <li class="current">
-                                                <a href="ligainggris.php">Liga Inggris</a>
+                                                <a href="application/model/home/ligainggris.php">Liga Inggris</a>
                                             </li>
                                             <li class="current">
-                                                <a href="ligachampions.php">Liga Champions</a>
+                                                <a href="application/model/home/ligachampions.php">Liga Champions</a>
                                             </li>
 
                                             
@@ -67,7 +67,7 @@
                                             
 
                                             <li>
-                                                <a href="https://www.instagram.com/alvicky__">Contact</a>
+                                                <a href="application/model/home/contact.php">Contact</a>
                                             </li>
                                         </ul>
                                         <!-- End Menu-->
@@ -92,23 +92,23 @@
                 <!-- Menu-->
                 <ul>
                     <li>
-                        <a href="../../../index.php">Home</a>
+                        <a href="#">Home</a>
 					</li>
 					
                     <li>
-                        <a href="ligaindonesia.php">Liga Indonesia</a>
+                        <a href="application/model/home/ligaindonesia.php">Liga Indonesia</a>
                     </li>
                     <li>
-                        <a href="ligainggris.php">Liga Inggris</a>
+                        <a href="application/model/home/ligainggris.php">Liga Inggris</a>
                     </li>
                     <li>
-                        <a href="ligachampions.php">Liga Champions</a>
+                        <a href="application/model/home/ligachampions.php">Liga Champions</a>
 					</li>
 					
 					
 
                     <li>
-                        <a href="https://www.instagram.com/alvicky__">Contact</a>
+                        <a href="application/model/home/contact.php">Contact</a>
                     </li>
                 </ul>
                 <!-- End Menu-->

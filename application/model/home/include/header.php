@@ -67,7 +67,7 @@
                                             
 
                                             <li>
-                                                <a href="https://www.instagram.com/alvicky__">Contact</a>
+                                                <a href="contact.php">Contact</a>
                                             </li>
                                         </ul>
                                         <!-- End Menu-->
@@ -108,7 +108,7 @@
 					
 
                     <li>
-                        <a href="https://www.instagram.com/alvicky__">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
                 <!-- End Menu-->
